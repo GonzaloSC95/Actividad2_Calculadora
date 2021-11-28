@@ -683,7 +683,7 @@ public class Calculadora_Main extends javax.swing.JFrame {
             if (e.getMessage().equalsIgnoreCase("empty string")) {
                 Player rep;
                 try {
-                    rep = new Player(new FileInputStream("mp3/numVacio.mp3"));
+                    rep = new Player(new FileInputStream("mp3\\numVacio.mp3"));
                     rep.play();
                 } catch (FileNotFoundException | JavaLayerException ex) {
 
