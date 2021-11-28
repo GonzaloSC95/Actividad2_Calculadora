@@ -753,10 +753,10 @@ public class Calculadora_Main extends javax.swing.JFrame {
     }//GEN-LAST:event_num0ActionPerformed
 
     private void comaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comaActionPerformed
-        delResultado();
         if (!hayComa) {
             pulsarTeclaNumero(".");
         }
+        delResultado();
 
     }//GEN-LAST:event_comaActionPerformed
 
@@ -1005,7 +1005,7 @@ public class Calculadora_Main extends javax.swing.JFrame {
      * @param i
      */
     public void pulsarTeclaNumero(String i) {
-        if (i.equalsIgnoreCase(",")) {
+        if (i.equalsIgnoreCase(".")) {
             hayComa = true;
             display1.setText(display1.getText() + i);
         } else {
