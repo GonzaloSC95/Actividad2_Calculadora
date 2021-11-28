@@ -18,7 +18,7 @@ public class RespuestaPasswdAdvicce extends Player implements Runnable {
      * @throws FileNotFoundException
      */
     public RespuestaPasswdAdvicce() throws JavaLayerException, FileNotFoundException {
-        super(new FileInputStream("mp3\\passwdAdvice.mp3"));
+        super(new FileInputStream("mp3/passwdAdvice.mp3"));
     }
 
     @Override

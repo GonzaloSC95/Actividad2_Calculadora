@@ -19,7 +19,7 @@ public class RespuestaBienvenidaUser extends Player implements Runnable {
      * @throws FileNotFoundException
      */
     public RespuestaBienvenidaUser() throws JavaLayerException, FileNotFoundException {
-        super(new FileInputStream("mp3\\" + Calculadora_Main.userName.toLowerCase() + ".mp3"));
+        super(new FileInputStream("mp3/" + Calculadora_Main.userName.toLowerCase() + ".mp3"));
     }
 
     @Override
