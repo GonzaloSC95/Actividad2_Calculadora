@@ -17,7 +17,7 @@ public class RespuestaFuncionNodisponible extends Player implements Runnable {
      * @throws FileNotFoundException
      */
     public RespuestaFuncionNodisponible() throws JavaLayerException, FileNotFoundException {
-        super(new FileInputStream("mp3/funcNodisponible.mp3"));
+        super(new FileInputStream("mp3\\funcNodisponible.mp3"));
     }
 
     @Override

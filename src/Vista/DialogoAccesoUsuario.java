@@ -16,7 +16,7 @@ public class DialogoAccesoUsuario extends javax.swing.JFrame implements Runnable
         setTitle("LOGIN");
         initComponents();
         setLocationRelativeTo(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("img\\calculator.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/calculator.png")));
         userCheck.requestFocus();
     }
 

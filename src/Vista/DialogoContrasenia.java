@@ -15,7 +15,7 @@ public class DialogoContrasenia extends javax.swing.JFrame implements Runnable {
         initComponents();
         setTitle("PASSWORD");
         setLocationRelativeTo(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("img\\calculator.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/calculator.png")));
         contrasenia.requestFocus();
     }
 

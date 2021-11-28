@@ -23,7 +23,8 @@ public class Calculadora_Main extends javax.swing.JFrame {
             initComponents();
             setLocationRelativeTo(null);
             setTitle("CALCULATOR");
-            setIconImage(Toolkit.getDefaultToolkit().getImage("img\\calculator.png"));
+            setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/calculator.png")));
+            /////////////////////////////////////////////
         } catch (Exception e) {
             System.err.println(e.getMessage() + " - " + e.getLocalizedMessage());
             e.printStackTrace();

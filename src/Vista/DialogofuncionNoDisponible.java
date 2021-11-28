@@ -14,7 +14,7 @@ public class DialogofuncionNoDisponible extends javax.swing.JFrame implements Ru
     public DialogofuncionNoDisponible() {
         initComponents();
         setLocationRelativeTo(null);
-        setIconImage(Toolkit.getDefaultToolkit().getImage("img\\calculator.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/img/calculator.png")));
     }
 
     @SuppressWarnings("unchecked")
